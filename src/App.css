@@ -10,3 +10,8 @@ body{
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
     /* Gerais */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}

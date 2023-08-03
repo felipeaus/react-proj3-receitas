@@ -1,0 +1,14 @@
+.div-menu a{
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+    transform: scale(1);
+    transition: transform 0.3s;
+};
+.div-menu{    
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.div-menu:hover{
+    transform: scale(1.2); 
+}
