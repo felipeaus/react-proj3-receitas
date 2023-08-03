@@ -4,7 +4,7 @@ export function Menu(props) {
     return (
   
       <div className="div-menu">
-      <a href={props.nome} target="_blank" 
+      <a href={props.link} target="_blank" 
          rel="noopener noreferrer">{props.titulo}</a>
       </div> 
     );
