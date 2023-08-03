@@ -1,8 +1,11 @@
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Banner } from "./componentes/banner/banner";
 import { Menu } from "./componentes/menu/menu";
+import { Receitas } from "./componentes/rec-doce/receitas"
 import LogoBanner from "./imagens/receitas-da-angela-header.png"
 import FotoHome from "./imagens/img1.jpg"
+
 
 function App() {
   return (
@@ -12,11 +15,12 @@ function App() {
     </div>
 
     <div className='all-content'>
+
       <div className='menu'>
-      <Menu nome="#" titulo="Receitas Doces"/>
-      <Menu nome="#" titulo="Receitas Salgadas"/>
-      <Menu nome="#" titulo="Receitas de Bebidas"/>
-      <Menu nome="#" titulo="Sobre"/>
+      <Menu link="#" titulo="Receitas Doces"/>
+      <Menu link="#" titulo="Receitas Salgadas"/>
+      <Menu link="#" titulo="Receitas de Bebidas"/>
+      <Menu link="#" titulo="Sobre"/>
       </div>
 
       <div className='all-content'>
@@ -34,6 +38,7 @@ function App() {
             <img src={FotoHome}/>
       </div>
       </div>
+    
 
     </div>
     </>
