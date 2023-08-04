@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Banner } from "./componentes/banner/banner";
 import { Menu } from "./componentes/menu/menu";
-import { Receitas } from "./componentes/rec-doce/receitas"
+import { Receitas } from "./componentes/receitas/receitas"
 import LogoBanner from "./imagens/receitas-da-angela-header.png"
 import FotoHome from "./imagens/img1.jpg"
 
