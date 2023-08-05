@@ -1,11 +1,12 @@
-import "./style.css"
+import "./style.css";
+import { Link } from "react-router-dom";
 
 export function Menu(props) {
     return (
-  
+      <>
       <div className="div-menu">
-      <a href={props.link} target="_blank" 
-         rel="noopener noreferrer">{props.titulo}</a>
+      <Link to={props.link}>{props.titulo}</Link>
       </div> 
+      </>
     );
   }

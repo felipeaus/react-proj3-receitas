@@ -1,12 +1,13 @@
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export function Banner(props) {
     return (
   
       <div className="div-banner">
-      <a href={props.nome} target="_blank" rel="noopener noreferrer">
+      <Link to="/">
         <img className="banner" alt="banner-site" src={props.image}></img>
-      </a>
+      </Link>
      </div>   
     );
   }
