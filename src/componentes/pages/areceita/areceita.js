@@ -8,8 +8,9 @@ export function Areceita(props) {
         <>
         <div>
             <Banner/>
-        </div>
             <Menu/>
+        </div>
+            
         <div>
             <Link to={props.link}>
             <h1>{props.titulo}</h1>
@@ -19,8 +20,5 @@ export function Areceita(props) {
             </Link>
         </div>
         </>
-
-
-
     );
 }

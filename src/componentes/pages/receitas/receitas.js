@@ -3,6 +3,7 @@ import Logo from "./receitas-da-angela-header.png";
 import "./style.css";
 import { Link } from "react-router-dom";
 import {Menu} from "../../menu/menu";
+import { Areceita } from "../../pages/areceita/areceita";
 
 export function Receitas (props) {
     return (
@@ -17,8 +18,8 @@ export function Receitas (props) {
           <Menu link="/sobre" titulo="Sobre"/>
       </div>
             <div className="lista-rec">
-                <Link link="/receita-1">Receita 1</Link>
-                <Link to={props.link2}>Receita 2</Link>
+                <Link to="/receita-1" titulo="teste" ingre="teste2" modo="teste3">Receita 1</Link>
+                <Link link="/receita-2" href={<Areceita/>}>Receita 2</Link>
                 <Link to={props.link3}>Receita 3</Link>
             </div>
             <div className="lista-rec">
