@@ -8,8 +8,8 @@ import Logo from "../../../imagens/receitas-da-angela-header.png"
 const receitas = {
     13: {
       link: "",
-      titulo: "RecBeb 1",
-      ingre: "ingredientes",
+      titulo: "Chá Mate com Limão",
+      ingre: "- 3 colheres de Chá Mate \n- 1 Limão \n-1 lt de Água",            
       modo: "modo de preparo",
     },
     14: {
@@ -69,7 +69,7 @@ export function RecBeb(props) {
             <p>{receita.ingre}</p>
             <h2>Modo de Preparo</h2>
             <p>{receita.modo}</p>
-            </div>
+        </div>
         </>
     );
 }
