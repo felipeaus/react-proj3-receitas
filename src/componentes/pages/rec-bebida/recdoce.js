@@ -6,45 +6,45 @@ import Logo from "../../../imagens/receitas-da-angela-header.png"
 
 
 const receitas = {
-    1: {
+    13: {
       link: "",
-      titulo: "RecDoce 1",
+      titulo: "RecBeb 1",
       ingre: "ingredientes",
       modo: "modo de preparo",
     },
-    2: {
+    14: {
       link: "",
-      titulo: "RecDoce 2",
+      titulo: "RecBeb 2",
       ingre: "ingredientes",
       modo: "modo de preparo",
     },
-    3: {
+    15: {
         link: "",
-        titulo: "RecDoce 3",
+        titulo: "RecBeb 3",
         ingre: "ingredientes",
         modo: "modo de preparo",
     },
-    4: {
+    16: {
         link: "",
-        titulo: "RecDoce 4",
+        titulo: "RecBeb 4",
         ingre: "ingredientes",
         modo: "modo de preparo",
     },
-    5: {
+    17: {
         link: "",
-        titulo: "RecDoce 5",
+        titulo: "RecBeb 5",
         ingre: "ingredientes",
         modo: "modo de preparo",
     },
-    6: {
+    18: {
         link: "",
-        titulo: "RecDoce 6",
+        titulo: "RecBeb 6",
         ingre: "ingredientes",
         modo: "modo de preparo",
     },
   };
 
-export function RecDoce(props) {
+export function RecBeb(props) {
 
     const params = useParams();
 

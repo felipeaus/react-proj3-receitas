@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from "./componentes/pages/home/home";
 import { Receitas } from "./componentes/pages/receitas/receitas";
 import { RecDoce } from "./componentes/pages/rec-doce/recdoce";
-import { RecSalg } from "./componentes/pages/rec-salgada/recsalgada"
+import { RecSalg } from "./componentes/pages/rec-salgada/recsalgada";
 import { Sobre } from "./componentes/pages/sobre/sobre";
 
 

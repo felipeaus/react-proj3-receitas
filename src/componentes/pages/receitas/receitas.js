@@ -18,7 +18,7 @@ export function Receitas (props) {
           <Menu link="/sobre" titulo="Sobre"/>
       </div>
             <div className="lista-rec">
-                <Link to="/receitas-doces/">Receita 1</Link>
+                <Link to="/receitas-doces/1">Receita 1</Link>
                 <Link to="/receitas-doces/2">Receita 2</Link>
                 <Link to="/receitas-doces/3">Receita 3</Link>
             </div>
