@@ -1,11 +1,11 @@
 import { Banner } from "../../banner/banner";
 import Logo from "./receitas-da-angela-header.png";
-import "./style.css";
+import "./style copy 2.css";
 import { Link } from "react-router-dom";
 import {Menu} from "../../menu/menu";
 
 
-export function Receitas (props) {
+export function BebReceitas (props) {
     return (
   
         <div>
@@ -18,14 +18,14 @@ export function Receitas (props) {
           <Menu link="/sobre" titulo="Sobre"/>
       </div>
             <div className="lista-rec">
-                <Link to="/receitas-doces/1">Receita 1</Link>
-                <Link to="/receitas-doces/2">Receita 2</Link>
-                <Link to="/receitas-doces/3">Receita 3</Link>
+                <Link to="/receitas-bebida/13">Receita 1</Link>
+                <Link to="/receitas-bebida/14">Receita 2</Link>
+                <Link to="/receitas-bebida/15">Receita 3</Link>
             </div>
             <div className="lista-rec">
-                <Link to="/receitas-doces/4">Receita 4</Link>
-                <Link to="/receitas-doces/5">Receita 5</Link>
-                <Link to="/receitas-doces/6">Receita 6</Link>
+                <Link to="/receitas-bebida/16">Receita 4</Link>
+                <Link to="/receitas-bebida/17">Receita 5</Link>
+                <Link to="/receitas-bebida/18">Receita 6</Link>
             </div>
 
         </div>

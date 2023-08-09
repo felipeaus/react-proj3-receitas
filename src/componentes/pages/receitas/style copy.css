@@ -1,0 +1,6 @@
+.lista-rec{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
