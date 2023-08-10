@@ -9,7 +9,7 @@ const receitas = {
     13: {
       link: "",
       titulo: "Chá Mate com Limão",
-      ingre: "- 3 colheres de Chá Mate \n- 1 Limão \n-1 lt de Água",            
+      ingre: "- 3 colheres de Chá Mate \r\n - 1 Limão \r\n  -1 lt de Água",            
       modo: "modo de preparo",
     },
     14: {
@@ -44,6 +44,8 @@ const receitas = {
     },
   };
 
+  
+
 export function RecBeb(props) {
 
     const params = useParams();
@@ -51,6 +53,8 @@ export function RecBeb(props) {
     const id = params.id;
 
     const receita = receitas[id];
+
+    
 
     return (
         <>
