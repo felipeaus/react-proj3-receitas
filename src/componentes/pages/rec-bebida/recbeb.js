@@ -70,7 +70,7 @@ export function RecBeb(props) {
             
         <div>
             <h1>{receita.titulo}</h1>
-            <p style={{ whiteSpace: "pre-line" }}>{receita.ingre}</p>
+            <p style={{ whiteSpace: "pre-wrap" }}>{receita.ingre}</p>
             <h2>Modo de Preparo</h2>
             <p>{receita.modo}</p>
         </div>
