@@ -1,6 +1,6 @@
 import { Banner } from "../../banner/banner";
 import Logo from "./receitas-da-angela-header.png";
-import "./style copy.css";
+import "./style.css";
 import { Link } from "react-router-dom";
 import {Menu} from "../../menu/menu";
 
@@ -18,14 +18,14 @@ export function SalgReceitas (props) {
           <Menu link="/sobre" titulo="Sobre"/>
       </div>
             <div className="lista-rec">
-                <Link to="/receitas-salgadas/7">Receita 1</Link>
-                <Link to="/receitas-salgadas/8">Receita 2</Link>
-                <Link to="/receitas-salgadas/9">Receita 3</Link>
+                <Link to="/receitas-salgadas/7" className="hover-lista">Nhoque de Forno</Link>
+                <Link to="/receitas-salgadas/8" className="hover-lista">Maionese - sem óleo</Link>
+                <Link to="/receitas-salgadas/9" className="hover-lista">Massa de Pizza</Link>
             </div>
             <div className="lista-rec">
-                <Link to="/receitas-salgadas/10">Receita 4</Link>
-                <Link to="/receitas-salgadas/11">Receita 5</Link>
-                <Link to="/receitas-salgadas/12">Receita 6</Link>
+                <Link to="/receitas-salgadas/10" className="hover-lista">Receita 4</Link>
+                <Link to="/receitas-salgadas/11" className="hover-lista">Receita 5</Link>
+                <Link to="/receitas-salgadas/12" className="hover-lista">Receita 6</Link>
             </div>
 
         </div>

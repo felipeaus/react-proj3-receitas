@@ -1,6 +1,22 @@
-.lista-rec{
+.lista-rec {
     display: flex;
     justify-content: space-around;
     padding-top: 10vh;
     padding-bottom: 5vh;
+    overflow: hidden;
+    transition: transform 0.3s;
+    transform: scale(1);
+}
+
+.hover-lista {
+    text-decoration: none;
+    color: brown;
+    transition: transform 0.3s;
+
+    
+    transform: scale(1);
+}
+
+.hover-lista:hover {
+    transform: scale(1.2);
 }

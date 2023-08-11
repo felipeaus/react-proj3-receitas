@@ -18,14 +18,14 @@ export function DoceReceitas (props) {
           <Menu link="/sobre" titulo="Sobre"/>
       </div>
             <div className="lista-rec">
-                <Link to="/receitas-doces/1">Receita 1</Link>
-                <Link to="/receitas-doces/2">Receita 2</Link>
-                <Link to="/receitas-doces/3">Receita 3</Link>
+                <Link to="/receitas-doces/1" className="hover-lista">Receita 1</Link>
+                <Link to="/receitas-doces/2" className="hover-lista">Receita 2</Link>
+                <Link to="/receitas-doces/3" className="hover-lista">Receita 3</Link>
             </div>
             <div className="lista-rec">
-                <Link to="/receitas-doces/4">Receita 4</Link>
-                <Link to="/receitas-doces/5">Receita 5</Link>
-                <Link to="/receitas-doces/6">Receita 6</Link>
+                <Link to="/receitas-doces/4" className="hover-lista">Receita 4</Link>
+                <Link to="/receitas-doces/5" className="hover-lista">Receita 5</Link>
+                <Link to="/receitas-doces/6" className="hover-lista">Receita 6</Link>
             </div>
 
         </div>
