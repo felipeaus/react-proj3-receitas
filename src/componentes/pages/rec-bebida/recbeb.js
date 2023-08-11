@@ -9,8 +9,8 @@ const receitas = {
     13: {
       link: "",
       titulo: "Chá Mate com Limão",
-      ingre: "- 3 colheres de Chá Mate \r\n - 1 Limão \r\n  -1 lt de Água",            
-      modo: "modo de preparo",
+      ingre: "- 3 colheres de Chá Mate \r\n- 1 limão \r\n- 1 litro de Água",            
+      modo: "Coloque a água no recipiente que vai ao fogo, ligue em fogo alto.\r\nAo começar a ferver coloque o chá e rale a casca do limão, e uma rodela junto a mistura.\r\nAo começar a borbulhar desligue o fogo e deixa descansando por 5 minutos.\r\nEsprema o limão depois coe e coloque no recipiente final e agora só gelar. Sirva com bastante gelo.",
     },
     14: {
       link: "",
@@ -68,11 +68,11 @@ export function RecBeb(props) {
           <Menu link="/sobre" titulo="Sobre"/>
         </div>
             
-        <div>
-            <h1>{receita.titulo}</h1>
-            <p style={{ whiteSpace: "pre-wrap" }}>{receita.ingre}</p>
-            <h2>Modo de Preparo</h2>
-            <p>{receita.modo}</p>
+        <div className="rec-div">
+            <h1 className="txt-titulo">{receita.titulo}</h1>
+            <p className="txt-ingre" style={{ whiteSpace: "pre-wrap" }}>{receita.ingre}</p>
+            <h2 className="txt-titmodo">Modo de Preparo</h2>
+            <p className="txt-modo" style={{ whiteSpace: "pre-wrap" }}>{receita.modo}</p>
         </div>
         </>
     );

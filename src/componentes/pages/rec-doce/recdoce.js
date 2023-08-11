@@ -64,12 +64,12 @@ export function RecDoce(props) {
           <Menu link="/sobre" titulo="Sobre"/>
         </div>
             
-        <div>
-            <h1>{receita.titulo}</h1>
-            <p>{receita.ingre}</p>
-            <h2>Modo de Preparo</h2>
-            <p>{receita.modo}</p>
-            </div>
+        <div className="rec-div">
+            <h1 className="txt-titulo">{receita.titulo}</h1>
+            <p className="txt-ingre" style={{ whiteSpace: "pre-wrap" }}>{receita.ingre}</p>
+            <h2 className="txt-titmodo">Modo de Preparo</h2>
+            <p className="txt-modo" style={{ whiteSpace: "pre-wrap" }}>{receita.modo}</p>
+        </div>
         </>
     );
 }
