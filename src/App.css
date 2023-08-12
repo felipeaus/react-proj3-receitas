@@ -32,4 +32,29 @@ a{
 }
     /* TXT HOME */
 
+@media screen and (max-width: 400px) {
+
+.menu{
+   flex-direction: column;
+}
+.div-menu{
+  display: flex;
+  justify-content: center;
+}
+.img-home{
+  display: none;
+}
+.lista-rec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+}
+.sobre, .txt-home, .rec-div{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+}
+
   

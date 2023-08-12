@@ -26,8 +26,7 @@ import  Logo  from "../../../imagens/receitas-da-angela-header.png";
             que demandam de poucos ingredientes, e modo de preparo simplificado.
         </p>
         <p>
-        Todas as receitas vieram de anotações de 40 anos de experiencia
-        na cozinha.
+        Todas as receitas foram selecionadas a dedo, todas muito bem testadas.
         </p>
         
       </div>

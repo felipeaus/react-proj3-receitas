@@ -33,7 +33,7 @@ export function Home() {
                 Vá até o <b>SOBRE</b> e descubra a origem das receitas,
                 a idéia por trás do site e curiosidades.
             </p>
-            <img alt="fotohome" src={FotoHome}/>
+            <img className="img-home" alt="fotohome" src={FotoHome}/>
       </div>
       </div>
     
