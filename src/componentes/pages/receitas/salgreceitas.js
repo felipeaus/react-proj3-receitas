@@ -23,8 +23,8 @@ export function SalgReceitas (props) {
                 <Link to="/receitas-salgadas/9" className="hover-lista">Massa de Pizza</Link>
             </div>
             <div className="lista-rec">
-                <Link to="/receitas-salgadas/10" className="hover-lista">Receita 4</Link>
-                <Link to="/receitas-salgadas/11" className="hover-lista">Receita 5</Link>
+                <Link to="/receitas-salgadas/10" className="hover-lista">Torta Simples</Link>
+                <Link to="/receitas-salgadas/11" className="hover-lista">Pão de Batata</Link>
                 <Link to="/receitas-salgadas/12" className="hover-lista">Receita 6</Link>
             </div>
 

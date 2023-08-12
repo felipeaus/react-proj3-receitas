@@ -11,12 +11,11 @@
 .hover-lista {
     text-decoration: none;
     color: brown;
-    transition: transform 0.3s;
-
-    
+    transition: transform 0.3s;    
     transform: scale(1);
 }
 
 .hover-lista:hover {
+    color: red;
     transform: scale(1.2);
 }

@@ -8,15 +8,15 @@ import Logo from "../../../imagens/receitas-da-angela-header.png"
 const receitas = {
     1: {
       link: "",
-      titulo: "RecDoce 1",
-      ingre: "ingredientes",
-      modo: "modo de preparo",
+      titulo: "Bolo Formigueiro",
+      ingre: "- 2 copos de farinha de trigo.\r\n- 2 copos de açucar.\r\n- 1 copo de leite.\r\n- 4 ovos.\r\n- 1 colher de pó royal.\r\n- 2 colheres de margarina.\r\n- 100gr de coco ralado.\r\n- 100gr de granulado de chocolate.",
+      modo: "Em um recipiente misture bem todos os ingrediente, exceto o coco e o granulado.\r\nApós isso, adicionar o coco e o granulado e misturar o sulficiente para que fiquem espalhados na massa.\r\nDespeje a massa numa forma untada, e pré-aqueça o forno a 180°.\r\nLevar ao forno por 40 minutos até abrir a porta,\r\nespete um garfo na massa e veja se ainda 0e0stá crua.\r\nRepita esse processo até o bolo estar pronto",
     },
     2: {
       link: "",
-      titulo: "RecDoce 2",
-      ingre: "ingredientes",
-      modo: "modo de preparo",
+      titulo: "Bolinho de Chuva",
+      ingre: "- 2 ovos.\r\n- 1 xicara de açucar.\r\n- 1 xicara de leite.\r\n- 2 xicaras e meia de farinha de trigo.\r\n- 1 colher de fermento.",
+      modo: "Misture todos os ingrediente.\r\nCom a ajuda de uma colher, pegue uma quantidade média,\r\ne despeje em óleo em ponto de fritura, deixe até dourar.\r\nDepois role os bolinhos em açucar.",
     },
     3: {
         link: "",

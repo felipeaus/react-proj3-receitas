@@ -18,8 +18,8 @@ export function DoceReceitas (props) {
           <Menu link="/sobre" titulo="Sobre"/>
       </div>
             <div className="lista-rec">
-                <Link to="/receitas-doces/1" className="hover-lista">Receita 1</Link>
-                <Link to="/receitas-doces/2" className="hover-lista">Receita 2</Link>
+                <Link to="/receitas-doces/1" className="hover-lista">Bolo Formigueiro</Link>
+                <Link to="/receitas-doces/2" className="hover-lista">Bolinho de Chuva</Link>
                 <Link to="/receitas-doces/3" className="hover-lista">Receita 3</Link>
             </div>
             <div className="lista-rec">
