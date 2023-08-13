@@ -32,7 +32,7 @@ a{
 }
     /* TXT HOME */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
 .menu{
    flex-direction: column;
